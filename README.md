@@ -89,6 +89,13 @@ Calcul des pertes (fuites) du réseau :
 
 ./wildwater_test data/water_network.dat loss
 
+Graphe complémentaire (TOP 10 MAX) :
+
+Le graphique présentant les 10 plus grandes usines (volume MAX) est généré
+à partir des données produites par la commande `max`, à l’aide de gnuplot :
+
+gnuplot -e "INPUT='histo_max.dat'; OUTPUT='plots/histo_max_big.png'; TITLE='10 plus grandes usines (MAX)'; COUNT=10" plots/histo.gnuplot
+
 ---
 
 Résultats
