@@ -1,0 +1,18 @@
+# Binaire
+wildwater_test
+
+# Objets compilés
+*.o
+
+# Données générées
+*.dat
+*.png
+
+# Dossiers temporaires
+*.tmp
+*.log
+
+# OS / éditeur
+.DS_Store
+.vscode/
+
